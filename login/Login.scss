@@ -1,0 +1,68 @@
+$width: 252px;
+$height:35px;
+$border-radius:2px;
+$border: 1px solid #E2E2E2; 
+$font-family: 'Roboto', sans-serif;
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    
+    font-family: $font-family;
+    .input{
+        margin-left: 60px;
+        height: 10px !important;
+        border-radius: $border-radius;
+        width: $width;
+        outline: none;
+        margin-bottom: 20px !important;
+    }
+    .label{
+        margin-left: 60px;
+        font-size: 10px;
+    }
+}
+
+.label_forgot{
+    font-size: 10px;
+    margin-left: 233px;
+    margin-top: 10px;
+    font-family: $font-family;
+    color: #9D9D9D;
+}
+
+.login_btn{
+    width: $width !important;
+    height: $height !important;
+    margin-left: 60px !important;
+    border: none;
+    background: #A03037 !important;
+    color: white !important;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    font-family: $font-family;
+    margin-bottom: 15px !important;
+}
+
+.apps_btn{
+margin-left: 55px;
+    button{
+    height: 37px;
+    width: 105px;
+    margin-left: 15px;
+    border:none;
+    margin-top: 15px;
+    border-radius:3px;
+    font-family: $font-family;
+    background: #4266B2 !important;
+    color:#fff !important;
+    }
+}
+
+.label_or{
+    margin-left: 170px;
+    font-family: $font-family;
+    
+}

@@ -1,0 +1,41 @@
+$border-radius:2px;
+.text-container{
+    margin-top: 20px !important;
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px !important;
+    margin-top: 40px !important;
+    .input{
+        width: 252px !important;
+        height: 20px !important;
+        margin-left: 65px;
+        margin-bottom: 10px !important;
+        outline: none;
+        border-radius: $border-radius;
+        
+    }
+    .label{
+        font-size: 10px;
+        margin-left: 65px;
+        
+    }
+}
+}
+.text-container{
+    margin-top: 20px;
+}
+
+.signup_btn{
+    width: 255px;
+    height: 35px !important;
+    color: white !important;
+    background: #A03037 !important;
+    border: none;
+    margin-left: 65px !important;
+    margin-top: 10px !important;
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px){
+    
+}
